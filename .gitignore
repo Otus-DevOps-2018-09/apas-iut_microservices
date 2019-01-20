@@ -1,0 +1,19 @@
+# terraform
+variables.json
+*.tfstate
+*.tfstate.*.backup
+*.tfstate.backup
+*.tfstate.lock.*
+*.tfvars
+.terraform/
+# ansible
+*.retry
+jdauphant.nginx
+vault.key
+# vagrant & molecule
+.vagrant/
+*.log
+*.pyc
+.molecule
+.cache
+.pytest_cache
